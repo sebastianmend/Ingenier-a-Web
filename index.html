@@ -3,104 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moon Handsart - Funkos Personalizados</title>
+    <title>Moon Hands Art</title>
+    <!-- Fuente de ejemplo (Montserrat) -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
     <style>
+        /* Estilos generales */
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;  
+            font-family: 'Montserrat', sans-serif; /* Tipo de letra actualizado */
+            margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #fff;
         }
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1rem;
-        }
+
+        /* Barra de navegación superior */
         nav {
-            background-color: #444;
-            color: #fff;
-            padding: 0.5rem;
+            background-color: #333; /* Color de la barra */
+            padding: 10px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
         }
-        nav ul {
-            list-style-type: none;
-            padding: 0;
+
+        /* Logo a la izquierda */
+        .logo {
+            margin-left: 20px;
         }
-        nav ul li {
-            display: inline;
+
+        .logo img {
+            width: 50px; /* Ajusta el tamaño del logo */
+            height: auto;
+        }
+
+        /* Links centrados */
+        .nav-center {
+            display: flex;
+            justify-content: center;
+            flex: 1;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 1.1em;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Contáctanos a la derecha */
+        .contacto {
+            display: flex;
+            align-items: center;
+            margin-right: 20px;
+        }
+
+        .contacto img {
+            width: 25px;
+            height: 25px;
             margin-right: 10px;
         }
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
+
+        /* Encabezado con el logo */
+        header {
+            text-align: center;
+            padding: 100px 20px 20px; /* Espaciado desde la parte superior */
+            background-color: #f5f5f5;
+            position: relative;
         }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-            padding: 20px;
+
+        header img {
+            width: 250px; /* Tamaño del logo principal */
+            height: auto;
         }
-        .gallery {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
+
+        header h2 {
+            margin-top: 10px;
         }
-        .gallery img {
-            width: 200px;
-            height: 200px;
-            object-fit: cover;
+
+        /* Sección principal con imágenes */
+        .main-content {
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 30px;
+        }
+
+        .main-content img {
+            width: 300px; /* Ajusta el tamaño de las imágenes */
+            height: auto;
             margin: 10px;
+        }
+
+        /* Estilos para el pie de página */
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Moon Handsart</h1>
-        <p>Detalles personalizados que iluminan tu mundo</p>
-    </header>
 
+    <!-- Barra de navegación superior -->
     <nav>
-        <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#galeria">Galería</a></li>
-            <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-        </ul>
+        <!-- Logo a la izquierda -->
+        <div class="logo">
+            <a href="#inicio"><img src="LogoMano.png" alt="Logo"></a>
+        </div>
+
+        <!-- Links centrados -->
+        <div class="nav-center">
+            <a href="#inicio">Inicio</a>
+            <a href="#quienes-somos">Quiénes somos</a>
+            <a href="#galeria">Galería</a>
+        </div>
+
+        <!-- Contáctanos a la derecha -->
+        <div class="contacto">
+            <img src="ImagenContacto.svg" alt="Contacto">
+            <a href="#contacto">Contáctanos</a>
+        </div>
     </nav>
 
-    <div class="container">
-        <section id="inicio">
-            <h2>Bienvenidos a Moon Handsart</h2>
-            <p>Especialistas en Funkos personalizados y detalles únicos.</p>
-        </section>
+    <!-- Encabezado con el logo -->
+    <header id="inicio">
+        <img src="LogoPalabla.png" alt="Moon Hands Art Logo">
+        <h2>Bienvenido a Moon Hands Art</h2>
+    </header>
 
-        <section id="galeria">
-            <h2>Nuestra Galería</h2>
-            <div class="gallery">
-                <img src="/api/placeholder/200/200" alt="Funko personalizado 1">
-                <img src="/api/placeholder/200/200" alt="Funko personalizado 2">
-                <img src="/api/placeholder/200/200" alt="Funko personalizado 3">
-                <img src="/api/placeholder/200/200" alt="Funko personalizado 4">
-            </div>
-        </section>
+    <!-- Sección principal con imágenes -->
+    <section class="main-content">
+        <img src="ImagenDetallesVArios.png" alt="Imagen 1">
+        <img src="ImagenReinaJusticia.png" alt="Imagen 2">
+        <img src="ImagenCuadro.png" alt="Imagen 3">
+    </section>
 
-        <section id="sobre-nosotros">
-            <h2>Sobre Nosotros</h2>
-            <p>En Moon Handsart, nos apasiona crear Funkos personalizados que capturan la esencia de tus personajes favoritos o de ti mismo. Cada pieza es única y hecha con amor.</p>
-        </section>
-
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <p>¿Listo para tu Funko personalizado? ¡Contáctanos!</p>
-            <p>Email: info@moonhandsart.com</p>
-            <p>Teléfono: (123) 456-7890</p>
-        </section>
-    </div>
-
+    <!-- Pie de página -->
     <footer>
-        <p>&copy; 2024 Moon Handsart. Todos los derechos reservados</p>
+        <p>&copy; 2024 Moon Hands Art - Todos los derechos reservados</p>
     </footer>
+
 </body>
 </html>
-
