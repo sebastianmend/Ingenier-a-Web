@@ -1,0 +1,10 @@
+#F7F7F7
+#EEEEEE
+#393E46
+#929AAB
+
+https://colorhunt.co/palette/f7f7f7eeeeee393e46929aab
+
+git add .
+git commit -m "Paleta info y git comandos"
+git push origin main
