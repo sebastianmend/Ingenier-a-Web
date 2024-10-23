@@ -146,15 +146,15 @@ nav ul li a {
 }
 
 .contact-info img {
-  width: 20px; /* Ajusta el tamaño de los íconos para que se vean bien */
+  width: 20px; /* tamaño de los íconos*/
   height: auto;
   margin-right: 10px; /* Espacio entre la imagen y el texto */
   vertical-align: middle;
 }
 
-/* Controla el tamaño del logo de la mano */
+/*tamaño del logo de la mano */
 .logo-container img {
-  width: 100px; /* Ajusta este tamaño según necesites que el logo sea más grande o más pequeño */
+  width: 100px; /* Ajusta este tamaño */
   height: auto;
   margin-top: 20px;
 }
