@@ -1,0 +1,16 @@
+Bootstrap es un framework frontend de código abierto para desarrollar 
+sitios web y aplicaciones web. Algunas características clave:
+
+Es responsivo y móvil-first, lo que significa que está optimizado para 
+una buena experiencia de usuario en dispositivos móviles.
+Tiene un sistema de cuadrícula basado en flexbox que facilita el diseño 
+de páginas con diferentes tamaños de pantalla.
+Incluye una amplia biblioteca de componentes prediseñados como botones, 
+menús, formularios, alertas, etc.
+
+Utiliza un sistema de clases CSS que hace que el estilo y la apariencia de 
+los sitios web sean consistentes.
+
+Es fácil de personalizar y ampliar con CSS y JavaScript.
+
+ https://getbootstrap.com/ 

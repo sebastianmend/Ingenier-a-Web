@@ -1,6 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: [
+    "./Tailwind/*.html",  // Esto apunta a todos los archivos HTML en la carpeta 'tailwind'
+  ],
   theme: {
     extend: {},
   },
